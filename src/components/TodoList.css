@@ -67,3 +67,29 @@
     padding: 1%;
     font-weight: bold;
 }
+
+@media (max-width: 450px) {
+    .task-list{
+        min-width: 84vw;
+        max-width: 84vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        margin-top: 2vh;
+    }
+    
+ }
+
+ @media (max-height: 600px) {
+    .task-list{
+        min-width: 84vw;
+        max-width: 84vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        margin-top: 2vh;
+    }
+    
+ }
